@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+
+}
+a:hover{
+	cursor: hand;
+}
+
+.ana-ekran{
+	width:100%;
+	background: #FFF8DC;
+	margin: 0;
+	padding: 0;
+	
+
+}
+.top{
+	height: 32;
+	width: 100%;
+	background:#008B8B;
+	margin: 0;
+	border: 0px solid ;
+}
+.footer{
+	height: 30;
+	width: 100%;
+	background: #008B8B;
+	margin:0;
+	border: 0;
+
+}
+
+#board-table{
+	margin-top: 10;
+	margin-bottom: 10;
+	margin-left: 7px;
+	width:99%;
+	height: 585;
+	border: 1px solid black;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+#board-table td{
+	border: 1px solid black;
+	height: 30px;
+	font-size: 23px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+#board-table thead{
+	background-color: #FFE4B5;
+}
+#board-table .fa{
+ float: right;
+ color: green;
+ font-size: 40;
+}
+#footer-table  {
+
+	width: 100%;
+	height: 30;
+	color: white;
+	font-size: 13;
+   word-spacing: 5;
+   border-collapse: collapse;
+   border:1px solid white;
+
+}
+#footer-table td{
+	border-right:1px solid white;
+	text-align: center;
+	
+}
+#footer-table .fa{
+	font-size: 22;
+	padding-right: 12px;
+
+}
+#footer-table .fa-bars{
+	text-align: center;
+	padding-right: 0px;
+}
+
+#footer-table .fa-star{
+	color: #CD6889;
+}
+.top img{
+	
+margin-top:-4;
+	border:0;
+	width: 40;
+	height: 35;
+}
+#top-menu{
+	
+float: left;
+	width:100%;
+}
+#top-menu td{
+	width: 250;
+	text-align: center;
+	color: #EEA9B8;
+	font-size: medium;
+	font-family: Tahoma;
+	font-weight: bold; 
+   	
+}
+#top-menu select{
+    margin-top: -6;
+	height: 30;
+	width: 150;
+	background-color:#EEA9B8; 
+}
+.fa-cog{
+	margin-right: 5;
+	color: white;
+	margin-bottom: 5;
+}
+.fa-user{
+	margin-right: 10;
+	margin-bottom: 5;
+	background-color: white;
+	width: 20;
+	height: 18;
+
+}
